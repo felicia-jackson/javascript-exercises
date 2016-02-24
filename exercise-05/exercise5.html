@@ -3,13 +3,19 @@
   <body>
     <h1>Exercise 5</h1>
     <script>
-      
+      var row = "";
       for(var i = 0; i <=6; i++){
           for(var x=0; x <=i; x++){
             document.write("#");
         }
         document.write("<br/>")
       }
+     for(var i = 0; i <=6; i++){
+      var row = "";
+      for(var j= 0; j < i; j++){
+        row +="#";
+      } 
+      console.log(row);
     </script>
   </body>
 </html>

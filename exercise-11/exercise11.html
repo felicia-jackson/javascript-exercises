@@ -7,7 +7,11 @@
       var groceries = (function(){var o=['potatoes','bacon','eggs','milk','chocolate','orange juice','detergent','lettuce','yogurt','toothpaste'],r=[];for(var i=0;i<o.length;i++){r.push({name:o[Math.floor(Math.random()*(o.length-1)+1)],cost:Number((Math.random()*40).toFixed(2))});}return r;})();
 
       // Write your code here
-
+      for(var i = 0; i <=10; i++){
+        if(groceries[i].cost >10){
+          console.log(groceries + groceries[i].cost);
+        }
+      }
     </script>
   </body>
 </html>
